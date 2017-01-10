@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="" >
+    <meta name="description" content="" >
+    <meta name="full-screen" content="yes">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="full-screen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="styles/main.css" />
+    <script data-main="main.js" src="scripts/libs/require.js"></script>
+    <script>
+        window.share={
+          title : '年货账单不用愁',
+          desc : '用好运条，享受快速提现，超低费率，最高9900元授信额度！',
+          icon : location.protocol + '//' + location.host + '/hd-qf-mobile-api/hyt/images/shareicon.png',
+          url : location.protocol + '//' + location.host + '/hd-qf-mobile-api/hyt/index.html',
+          events: JSON.stringify({
+            weixin: 'wxShare-hyt12271472540408417',
+            friend: 'pyShare-hyt12271472540408417',
+            dynamic: 'qzShare-hyt12271472540408417',
+            qq: 'qqShare-hyt12271472540408417',
+            partner: 'hbShare-hyt12271472540408417'
+          })
+        }
+    </script>
+  </head>
+  <body id="index">
+    <div class="container"></div>
+    <script id="tpl-demo" type="text/template">
+      <div class="btn">click here!</div>
+      <img src="images/img.png" />
+    </script>
+  </body>
+</html>
